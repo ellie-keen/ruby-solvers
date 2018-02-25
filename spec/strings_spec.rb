@@ -25,7 +25,7 @@ describe '#number_of_words' do
 
 	it ' should return 11' do
 		string = 'example string example string example string example'
-		expected_return_value = 7r
+		expected_return_value = 7
 		expect(number_of_words(string)).to eq expected_return_value
 	end
 end
