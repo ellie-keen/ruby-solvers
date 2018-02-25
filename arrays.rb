@@ -5,6 +5,7 @@ def double_numbers(array)
 	array.map { |integer| integer * 2 }	
 end
 
+
 # Update this method, it takes two arrays arguments
 # It should return the total from the array with
 # the highest total value
@@ -16,4 +17,8 @@ end
 # returns --> 15
 
 def highest_total_value(array_1, array_2)
+	first = array_1.inject(:+)
+  second = array_2.inject(:+)
+
+	first > second ? first : second
 end
