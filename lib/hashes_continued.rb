@@ -7,6 +7,8 @@
 # Then RETURN the updated hash
 
 def update_hash(hash, hash_key, hash_value)
+	hash.store(hash_key, hash_value)
+	hash
 end
 
 	

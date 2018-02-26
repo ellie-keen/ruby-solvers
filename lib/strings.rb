@@ -12,4 +12,5 @@ end
 # This Method should return the number of words in a string
 
 def number_of_words(string)
+	string.split.size
 end
