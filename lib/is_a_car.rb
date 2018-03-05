@@ -4,5 +4,9 @@
 
 # You will need to create the class Car
 
+class Car
+end
+
 def is_a_car?(object)
+	object.is_a?(Car) ?	true : false
 end
