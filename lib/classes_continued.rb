@@ -7,4 +7,21 @@
 #	 - another_year_older should increase age by 1 when called
 
 class Person
+
+	def initialize
+		@age = 0
+	end
+
+	def age=(age)
+		@age = age
+	end
+
+	def age
+		@age
+	end
+
+	def another_year_older
+		@age += 1
+	end
+
 end
