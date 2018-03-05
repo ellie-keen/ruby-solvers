@@ -8,7 +8,7 @@ describe Person do
   	it 'should be set to 0 by default' do
 			person = Person.new
   		expect(person.age).to eq 0
- 	 end
+ 	  end
   end
   
   describe '#another_year_older' do
