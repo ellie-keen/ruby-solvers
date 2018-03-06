@@ -21,8 +21,24 @@
 
 
 class ShoppingBasket
-end
 
+	def initialize
+		@items = []
+	end
+
+	def items
+		@items
+	end
+
+	def add_item(object)
+		@items.count < 10 ? @items << object : 'Basket full'
+	end
+
+	def remove_item
+		@items.count == 0 ? "Basket empty" : @items.pop
+	end
+
+end
 
 
 
