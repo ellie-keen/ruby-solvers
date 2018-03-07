@@ -7,16 +7,17 @@
 
 
 def hash_value(hash, hash_key)
+hash[hash_key]
 end
 
 	
-# names_hash = {
-# 	'Chandler' => 'Bing',
-# 	'Monica' => 'Geller'
-# }
+names_hash = {
+ 	'Chandler' => 'Bing',
+ 	'Monica' => 'Geller'
+ }
 
-# puts hash_value(names_hash, 'Chandler')
+puts hash_value(names_hash, 'Chandler')
 # # returns: 'Bing'
 
-# puts hash_value(names_hash, 'Monica')
+puts hash_value(names_hash, 'Monica')
 # # returns: 'Geller'
