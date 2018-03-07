@@ -5,8 +5,8 @@
 
 class Taxi
 
-def number_of_seats
-	5	
-end
+	def number_of_seats
+		@number_of_seats = 5	
+	end
 
 end
