@@ -4,4 +4,9 @@
 # 	- have number_of_seats set to 5 by default
 
 class Taxi
+
+def number_of_seats
+	5	
+end
+
 end
