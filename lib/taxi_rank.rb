@@ -11,4 +11,22 @@ require_relative './taxi.rb'# this line allows you to use your Taxi class
 #    taxi object from the car_park array and return that taxi
 
 class TaxiRank
+
+	def initialize
+		@car_park = []
+	end
+
+	def car_park
+		@car_park
+	end
+
+	def park(taxi)
+		@car_park << taxi
+	end
+
+	def release_taxi
+		@car_park.pop
+		
+	end
+
 end
