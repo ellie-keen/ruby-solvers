@@ -16,6 +16,17 @@ This class should:
 
 =end
 
-
 class Book
+	def initialize(author = "", genre = "")
+		@author = author
+		@genre = genre
+	end
+
+	def author
+		@author
+	end
+
+	def genre
+		@genre
+	end
 end
