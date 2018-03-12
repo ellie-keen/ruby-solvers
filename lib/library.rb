@@ -14,8 +14,29 @@ This class should:
 
 
 class Library
+	def initialize
+		@book = []
+	end
+
+	def books
+		@book
+	end
+
+	def check_in_book(book)
+		@book	<< book
+	end
 end
 
+library = Library.new
+
+harry_potter = Book.new("J.K Rowling", "Fiction")
+lotr = Book.new("Tolken", "Fiction")
+happy = Book.new("Fearne Cotton", "Self-help")
+
+library.check_in_book(harry_potter)
+library.check_in_book(lotr)
+library.check_in_book(happy)
+p library.books.count
 
 # try creating some books and checking them into your library!
 # BONUS Create a user story for the above requirements
