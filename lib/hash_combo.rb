@@ -17,4 +17,5 @@ returns:
 
 
 def combine_hashes(a, b)
+	a.merge(b)
 end
