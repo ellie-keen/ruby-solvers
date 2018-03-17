@@ -9,4 +9,5 @@ string_replace('goodbye moon')
 =end
 
 def string_replace(string)
+	string.gsub!('goodbye', 'hello')
 end
